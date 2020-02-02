@@ -6,16 +6,18 @@
 		"start": "node ./bin/www"
 	},
 	"dependencies": {
+		"@babel/runtime": "^7.8.4",
 		"cookie-parser": "~1.4.4",
 		"debug": "~4.1.1",
 		"ejs": "^3.0.1",
 		"express": "4.17.1",
 		"http-errors": "~1.7.3",
-		"pug": "2.0.4",
-		"morgan": "~1.9.1"
+		"morgan": "~1.9.1",
+		"pug": "2.0.4"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.8.4",
+		"@babel/plugin-transform-runtime": "^7.8.3",
 		"@babel/preset-env": "^7.8.4",
 		"@babel/preset-react": "^7.8.3",
 		"babel-loader": "^8.0.6",

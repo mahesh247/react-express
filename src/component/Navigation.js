@@ -68,41 +68,6 @@ const Navigation = props => {
 						name={classnames[index]}
 					/>
 				))}
-				{/* {array.map((index, item) => {
-					console.log(index);
-					console.log(item);
-					<ListItem item={item} />;
-				})} */}
-				{/* <li>
-					<a href="#" className="icon solid fa-user-circle">
-						<span className="label">User</span>
-					</a>
-				</li>
-				<li>
-					<a href="#" className="icon solid fa-envelope">
-						<span className="label">Email</span>
-					</a>
-				</li>
-				<li>
-					<a href="#" className="icon solid fa-calendar-alt">
-						<span className="label">DOB</span>
-					</a>
-				</li>
-				<li>
-					<a href="#" className="icon solid fa-map-marker-alt">
-						<span className="label">Location</span>
-					</a>
-				</li>
-				<li>
-					<a href="#" className="icon solid fa-phone-alt">
-						<span className="label">Phone</span>
-					</a>
-				</li>
-				<li>
-					<a href="#" className="icon solid fa-key">
-						<span className="label">Password</span>
-					</a>
-				</li> */}
 			</ul>
 		</nav>
 	);
